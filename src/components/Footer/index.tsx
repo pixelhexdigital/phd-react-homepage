@@ -79,7 +79,7 @@ const Footer = ({ t }: any) => {
               </Large>
             </Col>
           </Row>
-          <Row justify="space-between">
+          {/* <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
@@ -123,7 +123,7 @@ const Footer = ({ t }: any) => {
                 </LanguageSwitch>
               </LanguageSwitchContainer>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </FooterSection>
       <Extra>
@@ -136,14 +136,14 @@ const Footer = ({ t }: any) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="logoFooter.svg"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  height="32px"
+                  width="auto"
                 />
               </LogoContainer>
             </NavLink>
-            <FooterContainer>
+            {/* <FooterContainer>
               <SocialLink
                 href="https://github.com/Adrinlol/create-react-app-adrinlol"
                 src="github.svg"
@@ -166,7 +166,7 @@ const Footer = ({ t }: any) => {
                   alt="Buy me a pizza"
                 />
               </a>
-            </FooterContainer>
+            </FooterContainer> */}
           </Row>
         </Container>
       </Extra>
